@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- jQuery UI --> 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Google Fonts -->
+        <!-- jQuery UI --> 
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' crossorigin='anonymous' />
+        <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" />
+    </head>
+	<body style="background-color: transparent;">
+        <div class="hud">
+		
+		<!-----<div class="hudfon" style="background-image: url('./img/fon.png');"></div>--> 
+		
+
+		
+            <div class="player-side" style="background-image: url('./img/fon.png');">
+			<!--<img class="hudfon" style="pointer-events: none;" src="./img/fon.png"> --> 
+                <div class="upper-hud">
+				
+				    <div class="health-bar">
+                       <!-- <div class="health-img" style="background-image: url('./img/kalp.png');"></div> -->                
+                        <div class="health-status"></div>
+                        <div class="health-status-background"></div>
+        
+                    </div>
+				
+                    <div class="armor-bar">
+                        <!--<div class="armor-img" style="background-image: url('./img/shield.png');"></div>--> 
+                        <div class="armor-status"></div>
+                        <div class="armor-status-background"></div>
+                    </div>
+                </div>
+				
+				
+                <div class="bottom-hud">
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-utensils"></i></div>
+                        <svg width="53" height="53">
+                            <circle class="progress progress-burger" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-droplet"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress progress-water" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-brain"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress progress-stress" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-lungs"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress progress-oxygen" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i id = "microfono2" class="fa fa-thermometer-quarter"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-stamina" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>					
+                </div>                          
+            </div>
+             
+        
+            <div class="vehicle-side">
+                <div class="upper-hud">
+        
+                    <div class="armor-bar">
+                        <div class="armor-img" style="background-image: url('./img/shield.png');"></div>
+                        <div class="armor-status"></div>
+                        <div class="armor-status-background"></div>
+                    </div>
+                    <div class="health-bar">
+                        <div class="health-img" style="background-image: url('./img/kalp.png');"></div>                
+                        <div class="health-status"></div>
+                        <div class="health-status-background"></div>
+        
+                    </div>
+                </div>
+                <div class="bottom-hud">
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-utensils"></i></div>
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-burger" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-droplet"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-water" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-brain"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-stress" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i class="fa-solid fa-lungs"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-oxygen" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>
+                    <div class="list-stat-item">
+                        <div class="stats-img"><i id = "microfono2" class="fa fa-thermometer-quarter"></i></div>
+        
+                        <svg width="53" height="53">
+                            <circle class="progress veh-progress-stamina" stroke="#D4D4D4" stroke-width="2.6" style="stroke-opacity: 1;" fill="#4a4a4a" r="20" cx="25" cy="25" stroke-dasharray="80 30" stroke-dashoffset="0"/>
+                        </svg>
+                    </div>								
+                </div>
+            </div>
+    </div>
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>
